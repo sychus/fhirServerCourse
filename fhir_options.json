@@ -1,9 +1,25 @@
 {
     "SystemMap": [
-        { "type": "NI", "system": "https://www.national-office.gov/ni", "use": "usual" },
-        { "type": "PP", "system": "https://www.foreign-affairs.gov/pp", "use": "usual" },
-        { "type": "ID", "system": "https://saintmartinhospital.org/patient-id", "use": "official" }
+        {
+            "type": "NI",
+            "system": "https://www.national-office.gov/ni",
+            "use": "usual"
+        },
+        {
+            "type": "PP",
+            "system": "https://www.foreign-affairs.gov/pp",
+            "use": "usual"
+        },
+        {
+            "type": "ID",
+            "system": "https://saintmartinhospital.org/patient-id",
+            "use": "official"
+        },
+        {
+            "type": "NPI",
+            "system": "https://saintmartinhospital.org/practitioner-id",
+            "use": "official"
+        }
     ],
     "HospitalIdentifierUrl": "https://saintmartinhospital.org/patient-id"
-
 }
