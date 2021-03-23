@@ -14,6 +14,12 @@ let config = {
             versions: [
                 VERSIONS['4_0_0']
             ]
+        },
+        medicationRequest: {
+            service: './medicationrequest.service.js',
+            versions: [
+                VERSIONS['4_0_0']
+            ]
         }
     }
 };
